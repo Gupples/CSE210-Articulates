@@ -29,6 +29,12 @@ namespace Unit05.Game.Services
             keys["j"] = KeyboardKey.KEY_J;
             keys["k"] = KeyboardKey.KEY_K;
             keys["l"] = KeyboardKey.KEY_L;
+
+            // Add arrow keys if people are used to playing with them
+            keys["up"] = KeyboardKey.KEY_UP;
+            keys["down"] = KeyboardKey.KEY_DOWN;
+            keys["left"] = KeyboardKey.KEY_LEFT;
+            keys["right"] = KeyboardKey.KEY_RIGHT;
         }
 
         /// <summary>
